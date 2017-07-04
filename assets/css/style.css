@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "South-Park";
+	src: url('../fonts/south park.ttf');
+}
+
+.background{
+	background: url(../img/sp-bg-4.png) no-repeat;
+background-size: cover;
+}
+
+h1{
+	font-family: "South-Park";
+	font-size: 5rem;
+	color: orange;
+	text-shadow: 2px 2px #000;
+	margin: auto;
+	width: 75%;
+	padding: 10px;
+}
+
+.small-img {
+	width: 75px;
+}
+
+.thumbnail:hover {
+	background-color: grey;
+}
+
+.hero-img {
+	width: 300px;
+	background: rgba(0, 0, 0, .2);
+	color: #37FF4C;
+	font-weight: bolder;
+	border: none;
+	font-size: 2rem;
+}
+
+.hero-health {
+	width: 300px;
+	background: rgba(0, 0, 0, .2);
+	color: #37FF4C;
+	font-weight: bolder;
+	border: none;
+	font-size: 2rem;
+}
+
+.disabled {
+	pointer-events: none;
+	opacity: .4;
+}
+
+.invisibleFighter {
+	pointer-events: none;
+	opacity: 0;
+}
